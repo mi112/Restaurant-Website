@@ -1,4 +1,3 @@
-
 body{
 	line-height: 1;
 	background-color: #ffffff;
@@ -53,11 +52,11 @@ h2{
 }
 .welcome-jumbo .burger-fries{
 	width: 100%;
-/*	max-width: 600px;
+	max-width: 600px;
 	animation: moveUpandDown 2s linear infinite;
-*/	position: relative;
+	position: relative;
 }
-/*
+
 @keyframes moveUpandDown{
 	0%, 100%{
 		bottom: 0;
@@ -66,7 +65,7 @@ h2{
 		bottom: 30px;
 	}
 }
-*/
+
 .logo{
 	display: flex;
 	justify-content: center;
@@ -220,7 +219,6 @@ ul.links li a:hover{
 	padding: 15px;
 	border-radius: 30px;
 	margin-bottom: 100px;
-	/*width: 100px;*/
 }
 .food-slider{
 	width: 100%;
@@ -258,7 +256,6 @@ ul.links li a:hover{
 	position: absolute;
 	z-index: 2;
 	padding: 20px;
-	/*width: 100%; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -282,4 +279,44 @@ ul.links li a:hover{
 	color: #7a8d99;
 	margin-bottom: 3rem;
 	transition: all .3s ease-in-out;
+}
+/*Footer section*/
+footer{
+	background-color: #333;
+	padding: 50px 100px;
+}
+footer a,footer i, footer p{
+	color: #888;
+}
+footer a:hover,footer i:hover{
+	color: #bbbbbb;
+}
+footer a{
+	text-decoration: none;
+}
+
+footer ul li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-links{
+	display: flex;
+	flex-direction: row;
+}
+.second-menu{
+	flex:1;
+}
+.second-social{
+	flex: 1;
+	align-items: flex-end;
+	display: flex;
+	justify-content: flex-end;
+}
+.second-social i{
+	font-size: 30px;
+	margin-left: 30px;
+}
+.copyright p{
+	text-align: center;
+	margin-top: 50px;
 }
