@@ -1,0 +1,74 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    #welcome{
+        height: auto;
+    }
+    #information{
+        display: block;
+    }
+    .restaurant-image {
+        max-height: 500px;
+    }
+    .food-slider{
+        display: block;
+    }
+    .slide{
+        display: inline-block;
+        width: 47%;
+        height: 820px;
+        margin-right: 2%;
+        margin-bottom: 100px;
+    }
+    #food-preview h2{
+        font-size: 3rem;
+    }
+    .food-description{
+        font-size: 1.8rem;
+    }
+    h2{
+        font-size: 1rem;
+        width: 100%;
+    }
+    p{
+        font-size: 1rem;
+    }
+    a,span{
+        font-size: 2rem;
+    }
+    
+    .footer-links{
+        display: block;
+    }
+    .footer-links ul{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .second-social{
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}
+
